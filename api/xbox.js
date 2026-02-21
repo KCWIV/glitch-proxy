@@ -20,6 +20,9 @@ export default async function handler(req, res) {
       'xsts.auth.xboxlive.com',
       'profile.xboxlive.com',
       'gameclipsmetadata.xboxlive.com',
+      'peoplehub.xboxlive.com',
+      'social.xboxlive.com',
+      'titlehub.xboxlive.com',
     ];
 
     if (!allowed.includes(hostname)) {
